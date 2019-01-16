@@ -15,6 +15,8 @@
 		C52B1ED221EF606400C8B1C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B1ED121EF606400C8B1C3 /* main.m */; };
 		C52B1EDC21EF606400C8B1C3 /* Day0102Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B1EDB21EF606400C8B1C3 /* Day0102Tests.m */; };
 		C52B1EE721EF606400C8B1C3 /* Day0102UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B1EE621EF606400C8B1C3 /* Day0102UITests.m */; };
+		C52B1EF621EF610E00C8B1C3 /* GHStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B1EF521EF610E00C8B1C3 /* GHStack.m */; };
+		C52B1EFC21EF652F00C8B1C3 /* GHCustomStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B1EFB21EF652F00C8B1C3 /* GHCustomStack.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C52B1EE221EF606400C8B1C3 /* Day0102UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day0102UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C52B1EE621EF606400C8B1C3 /* Day0102UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day0102UITests.m; sourceTree = "<group>"; };
 		C52B1EE821EF606400C8B1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C52B1EF421EF610E00C8B1C3 /* GHStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHStack.h; sourceTree = "<group>"; };
+		C52B1EF521EF610E00C8B1C3 /* GHStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHStack.m; sourceTree = "<group>"; };
+		C52B1EFA21EF652F00C8B1C3 /* GHCustomStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GHCustomStack.h; sourceTree = "<group>"; };
+		C52B1EFB21EF652F00C8B1C3 /* GHCustomStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GHCustomStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				C52B1ECD21EF606400C8B1C3 /* LaunchScreen.storyboard */,
 				C52B1ED021EF606400C8B1C3 /* Info.plist */,
 				C52B1ED121EF606400C8B1C3 /* main.m */,
+				C52B1EF421EF610E00C8B1C3 /* GHStack.h */,
+				C52B1EF521EF610E00C8B1C3 /* GHStack.m */,
+				C52B1EFA21EF652F00C8B1C3 /* GHCustomStack.h */,
+				C52B1EFB21EF652F00C8B1C3 /* GHCustomStack.m */,
 			);
 			path = Day0102;
 			sourceTree = "<group>";
@@ -262,7 +272,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52B1EFC21EF652F00C8B1C3 /* GHCustomStack.m in Sources */,
 				C52B1EC721EF606200C8B1C3 /* ViewController.m in Sources */,
+				C52B1EF621EF610E00C8B1C3 /* GHStack.m in Sources */,
 				C52B1ED221EF606400C8B1C3 /* main.m in Sources */,
 				C52B1EC421EF606200C8B1C3 /* AppDelegate.m in Sources */,
 			);
